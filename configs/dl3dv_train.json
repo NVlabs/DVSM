@@ -1,0 +1,9 @@
+{
+    "dl3dv": {
+        "path": "data/hdf5/dl3dv_10K/train.hdf5",
+        "weight": 1.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 16,
+        "extra_skip": 2
+    }
+}

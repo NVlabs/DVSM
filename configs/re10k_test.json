@@ -1,0 +1,6 @@
+{
+    "re10k_inp2_pixelsplat": {
+        "path": "data/hdf5/re10k_test/all.hdf5",
+        "samp": "configs/test_views_sampling/re10k_inp2_pixelsplat.json"
+    }
+}

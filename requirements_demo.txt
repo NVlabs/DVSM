@@ -1,0 +1,10 @@
+viser
+# gradio >= 6.18 requires huggingface_hub >= 1.2, which transformers 4.57 (requirements.txt) rejects;
+# gradio < 6.1 does not accept the theme / css arguments used by viser_app/gradio_demo.py
+gradio>=6.1,<6.18
+# Same range as requirements.txt, so that installing this file afterwards cannot upgrade it
+huggingface_hub>=0.34,<1.0
+imageio[pyav]
+opencv-python
+Pillow
+git+https://github.com/yyfz/Pi3.git

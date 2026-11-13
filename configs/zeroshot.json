@@ -1,0 +1,26 @@
+{
+    "mipnerf360_fold8_kmeans16": {
+        "path": "data/hdf5/mipnerf360/all.hdf5",
+        "samp": "configs/test_views_sampling/mipnerf360_fold8_kmeans16.json"
+    },
+    "mipnerf360_fold8_kmeans64": {
+        "path": "data/hdf5/mipnerf360/all.hdf5",
+        "samp": "configs/test_views_sampling/mipnerf360_fold8_kmeans64.json"
+    },
+    "free_fold8_kmeans16": {
+        "path": "data/hdf5/free/all.hdf5",
+        "samp": "configs/test_views_sampling/free_fold8_kmeans16.json"
+    },
+    "free_fold8_kmeans64": {
+        "path": "data/hdf5/free/all.hdf5",
+        "samp": "configs/test_views_sampling/free_fold8_kmeans64.json"
+    },
+    "hike_fold10_kmeans16": {
+        "path": "data/hdf5/hike/all.hdf5",
+        "samp": "configs/test_views_sampling/hike_fold10_kmeans16.json"
+    },
+    "hike_fold10_kmeans64": {
+        "path": "data/hdf5/hike/all.hdf5",
+        "samp": "configs/test_views_sampling/hike_fold10_kmeans64.json"
+    }
+}

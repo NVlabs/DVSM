@@ -1,0 +1,72 @@
+{
+    "dl3dv": {
+        "path": "data/hdf5/dl3dv_10K/train.hdf5",
+        "weight": 40.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 20,
+        "extra_skip": 2
+    },
+    "scannetpp": {
+        "path": "data/hdf5/scannetpp_dslr/train.hdf5",
+        "weight": 20.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 20,
+        "extra_skip": 4
+    },
+    "re10k": {
+        "path": "data/hdf5/re10k/train.hdf5",
+        "weight": 10.0,
+        "min_frame_skip": 25,
+        "max_frame_skip": 192,
+        "extra_skip": 25
+    },
+    "acid": {
+        "path": "data/hdf5/acid/train.hdf5",
+        "weight": 10.0,
+        "min_frame_skip": 50,
+        "max_frame_skip": 384,
+        "extra_skip": 25
+    },
+    "mapfree": {
+        "path": "data/hdf5/mapfree/train.hdf5",
+        "weight": 10.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 20,
+        "extra_skip": 0
+    },
+    "blendedmvs": {
+        "path": "data/hdf5/blendedmvs/train.hdf5",
+        "weight": 2.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 2,
+        "extra_skip": 0
+    },
+    "mvssynth": {
+        "path": "data/hdf5/mvs_synth/train.hdf5",
+        "weight": 2.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 20,
+        "extra_skip": 0
+    },
+    "hypersim": {
+        "path": "data/hdf5/hypersim/train.hdf5",
+        "weight": 2.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 20,
+        "extra_skip": 0
+    },
+    "arkitscene": {
+        "path": "data/hdf5/arkitscenes/train.hdf5",
+        "weight": 2.0,
+        "min_frame_skip": 1,
+        "max_frame_skip": 20,
+        "extra_skip": 0
+    },
+    "uasol": {
+        "path": "data/hdf5/uasol/train.hdf5",
+        "weight": 2.0,
+        "min_frame_skip": 10,
+        "max_frame_skip": 20,
+        "extra_skip": 0
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "re10k": {
+        "path": "data/hdf5/re10k/train.hdf5",
+        "weight": 1.0,
+        "min_frame_skip": 25,
+        "max_frame_skip": 192,
+        "extra_skip": 25
+    }
+}

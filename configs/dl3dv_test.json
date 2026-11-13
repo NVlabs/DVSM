@@ -1,0 +1,14 @@
+{
+    "dl3dv_fold8_kmeans16": {
+        "path": "data/hdf5/dl3dv_140/all.hdf5",
+        "samp": "configs/test_views_sampling/dl3dv_fold8_kmeans16.json"
+    },
+    "dl3dv_fold8_kmeans32": {
+        "path": "data/hdf5/dl3dv_140/all.hdf5",
+        "samp": "configs/test_views_sampling/dl3dv_fold8_kmeans32.json"
+    },
+    "dl3dv_fold8_kmeans64": {
+        "path": "data/hdf5/dl3dv_140/all.hdf5",
+        "samp": "configs/test_views_sampling/dl3dv_fold8_kmeans64.json"
+    }
+}

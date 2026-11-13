@@ -1,0 +1,31 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.0+cu128
+torchvision==0.22.0+cu128
+numpy==1.26.4
+einops
+# Prebuilt flash-attn wheels built against torch 2.7 (Linux x86_64 with glibc >= 2.32, Python 3.10-3.12)
+flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl ; python_version == "3.10"
+flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl ; python_version == "3.11"
+flash-attn @ https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl ; python_version == "3.12"
+h5py
+# >= 0.34 provides the `hf` command; transformers 4.57 requires < 1.0
+huggingface_hub>=0.34,<1.0
+# The ffmpeg extra is needed to write .mp4 files (eval.py --viz_video)
+imageio[ffmpeg]
+lpips
+natsort
+opencv-python
+Pillow
+pytorch-msssim
+scikit-image
+scipy
+tensorboard
+tqdm
+# The DINO backbone and the released DINO checkpoints rely on the DINOv3 module
+# layout of transformers 4.x, which changed in transformers 5.4
+transformers==4.57.3
+yacs
+pandas
+pycolmap
+scikit-learn
+safetensors
